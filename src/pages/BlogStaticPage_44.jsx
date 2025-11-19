@@ -6,7 +6,7 @@ const BlogStaticPage_44 = () => {
     <>
       <section className='blogs'>
         <div className='section-title'>
-          <h2>static blogs - zihyinhsu, 913410044</h2>
+          <h2>static blogs - hsu, 213410144</h2>
         </div>
         <div className='blogs-center'>
           <article className='blog'>

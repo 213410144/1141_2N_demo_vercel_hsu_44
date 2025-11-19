@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import blogData_44 from '../assets/data/blogData.json';
 import Blog_44 from '../components/Blog_44';
 const BlogLocalJsonPage_44 = () => {
-  const [name, setName] = useState('zihyinhsu');
-  const [id, setId] = useState(913410044);
+  const [name, setName] = useState('hsu');
+  const [id, setId] = useState(213410144);
   const [blogs_44, setBlogs_44] = useState(blogData_44);
   return (
     <>
