@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaGlobe, FaMugSaucer } from 'react-icons/fa6';
 
-const BlogStaticPage_22 = () => {
+const BlogStaticPage_44 = () => {
   return (
     <>
       <section className='blogs'>
         <div className='section-title'>
-          <h2>static blogs - zihyinhsu, 913410022</h2>
+          <h2>static blogs - zihyinhsu, 913410044</h2>
         </div>
         <div className='blogs-center'>
           <article className='blog'>
@@ -75,4 +75,4 @@ const BlogStaticPage_22 = () => {
   );
 };
 
-export default BlogStaticPage_22;
+export default BlogStaticPage_44;

@@ -1,8 +1,8 @@
 import React from 'react'
-import Wrapper from '../assets/wrappers/Navbar_22'
+import Wrapper from '../assets/wrappers/Navbar_44'
 import { Link } from 'react-router-dom';
 
-const Navbar_22 = () => {
+const Navbar_44 = () => {
   return <Wrapper>
     <header className="header">
       <div className="header-row container" role="navigation" aria-label="Main">
@@ -64,11 +64,11 @@ const Navbar_22 = () => {
               <Link to="#">Demo +</Link>
               <div className="sub-menu-wrapper slideInUp">
                 <ul className="sub-menu">
-                  <li className="menu-item"><Link to="/bookList_22">W2-BookList_22</Link></li>
-                  <li className="menu-item"><Link to="/static_22">W3-BLogStatic_22</Link></li>
-                  <li className="menu-item"><Link to="/localjson_22">W3-BLogLocalJson_22</Link></li>
-                  <li className="menu-item"><Link to="/node_22">W4-BlogNode_22</Link></li>
-                  <li className="menu-item"><Link to="#">w5-BlogSupa-22</Link></li>
+                  <li className="menu-item"><Link to="/bookList_44">W2-BookList_44</Link></li>
+                  <li className="menu-item"><Link to="/static_44">W3-BLogStatic_44</Link></li>
+                  <li className="menu-item"><Link to="/localjson_44">W3-BLogLocalJson_44</Link></li>
+                  <li className="menu-item"><Link to="/node_44">W4-BlogNode_44</Link></li>
+                  <li className="menu-item"><Link to="#">w5-BlogSupa-44</Link></li>
                 </ul>
               </div>
             </li>
@@ -139,10 +139,10 @@ const Navbar_22 = () => {
               <Link to="#">Demo +</Link>
               <div className="sub-menu-wrapper">
                 <ul className="sub-menu">
-                  <li className="menu-item"><Link to="/static_22">W3-BLogStatic_22</Link></li>
-                  <li className="menu-item"><Link to="/localjson_22">W3-BLogLocalJson_22</Link></li>
-                  <li className="menu-item"><Link to="/node_22">W4-BlogNode_22</Link></li>
-                  <li className="menu-item"><Link to="#">w5-BlogSupa-22</Link></li>
+                  <li className="menu-item"><Link to="/static_44">W3-BLogStatic_44</Link></li>
+                  <li className="menu-item"><Link to="/localjson_44">W3-BLogLocalJson_44</Link></li>
+                  <li className="menu-item"><Link to="/node_44">W4-BlogNode_44</Link></li>
+                  <li className="menu-item"><Link to="#">w5-BlogSupa-44</Link></li>
                 </ul>
               </div>
             </li>
@@ -155,4 +155,4 @@ const Navbar_22 = () => {
     </Wrapper>
 };
 
-export default Navbar_22
+export default Navbar_44

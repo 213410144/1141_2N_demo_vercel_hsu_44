@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGlobe, FaMugSaucer } from 'react-icons/fa6';
 
-const Blog_22 = ({ item }) => {
+const Blog_44 = ({ item }) => {
   return (
     <article key={item.id} className='blog'>
       <img src={item.img} alt={item.title} className='img blog-img' />
@@ -18,4 +18,4 @@ const Blog_22 = ({ item }) => {
   );
 };
 
-export default Blog_22;
+export default Blog_44;

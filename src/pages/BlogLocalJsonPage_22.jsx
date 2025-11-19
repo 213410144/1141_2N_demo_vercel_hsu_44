@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import blogData_22 from '../assets/data/blogData.json';
-import Blog_22 from '../components/Blog_22';
-const BlogLocalJsonPage_22 = () => {
+import blogData_44 from '../assets/data/blogData.json';
+import Blog_44 from '../components/Blog_44';
+const BlogLocalJsonPage_44 = () => {
   const [name, setName] = useState('zihyinhsu');
-  const [id, setId] = useState(913410022);
-  const [blogs_22, setBlogs_22] = useState(blogData_22);
+  const [id, setId] = useState(913410044);
+  const [blogs_44, setBlogs_44] = useState(blogData_44);
   return (
     <>
       <section className='blogs'>
@@ -15,8 +15,8 @@ const BlogLocalJsonPage_22 = () => {
           </h2>
         </div>
         <div className='blogs-center'>
-          {blogs_22.map((item) => {
-            return <Blog_22 key={item.id} item={item} />;
+          {blogs_44.map((item) => {
+            return <Blog_44 key={item.id} item={item} />;
           })}
         </div>
       </section>
@@ -24,4 +24,4 @@ const BlogLocalJsonPage_22 = () => {
   );
 };
 
-export default BlogLocalJsonPage_22;
+export default BlogLocalJsonPage_44;

@@ -117,7 +117,7 @@ body {
 }
 
 .header .header-row .mobile-menu ul li:hover {
-  background-color: rgba(222, 225, 226, 0.466);
+  background-color: rgba(442, 445, 446, 0.466);
 }
 
 /* Mega menu styles */
@@ -403,7 +403,7 @@ body {
     ul
     li:hover
     a {
-    background-color: rgba(222, 225, 226, 0.466);
+    background-color: rgba(442, 445, 446, 0.466);
   }
 }
 

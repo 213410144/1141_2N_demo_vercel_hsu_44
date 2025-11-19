@@ -20,7 +20,7 @@ const Wrapper = styled.div`
     width: 200px;
     img {
       width: 100%;
-      height: 220px;
+      height: 440px;
       object-fit: cover;
       margin: 0 auto;
     }

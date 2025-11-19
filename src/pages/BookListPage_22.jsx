@@ -1,9 +1,9 @@
 import React from 'react';
 import books_data from '../assets/data/booklist_data';
-import Wrapper from '../assets/wrappers/BookList_22';
+import Wrapper from '../assets/wrappers/BookList_44';
 
 console.log(books_data);
-const BookListPage_22 = () => {
+const BookListPage_44 = () => {
   return (
     <Wrapper>
     <section className='booklist'>
@@ -24,4 +24,4 @@ const BookListPage_22 = () => {
   );
 };
 
-export default BookListPage_22;
+export default BookListPage_44;
